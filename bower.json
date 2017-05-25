@@ -1,0 +1,17 @@
+{
+  "name": "can150",
+  "description": "",
+  "main": "index.html",
+  "license": "ISC",
+  "homepage": "http://www.riverrock.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
