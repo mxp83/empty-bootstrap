@@ -8298,3 +8298,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .fa-meetup:before {
   content: ""; }
+
+body .bg-faded {
+  background: #DC0404; }
+
+body .navbar {
+  border-bottom: 1px solid #aa0303; }
+  body .navbar .navbar-brand img {
+    max-height: 30px; }

@@ -3,3 +3,17 @@
 @import 'assets/font-awesome'; //fancy fonts
 
 // start your custom css below:
+body {
+	.bg-faded {
+		background: $canada-red;
+	}
+	.navbar {
+		border-bottom:1px solid darken($canada-red,10%);
+
+		.navbar-brand {
+			img {
+				max-height:30px;
+			}
+		}
+	}
+}
