@@ -69,6 +69,7 @@ gulp.task('cssnano', function(){
 //uglifies and concat all js into one file
 gulp.task('scripts',function(){
 	var scripts = [
+		basePaths.dev + 'js/jquery.min.js',
 		basePaths.dev + 'js/bootstrap4/bootstrap.js',
 		basePaths.dev + 'js/custom.js'
 	];
