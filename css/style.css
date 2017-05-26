@@ -8300,23 +8300,21 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .fa-meetup:before {
   content: ""; }
 
-body .bg-faded {
-  background: #DC0404; }
-
-body .navbar {
-  border-bottom: 1px solid #aa0303; }
-  body .navbar .navbar-brand img {
-    max-height: 30px; }
-
-body .navbar-light .navbar-nav .nav-link {
-  color: white; }
-
-body .jumbotron {
-  font-family: "Lato", sans-serif; }
-
-body footer {
-  background: #c30404;
-  padding: 3vh 0 5vh;
-  margin-top: 3vh; }
-  body footer iframe {
-    margin-bottom: 10px; }
+body {
+  padding-top: 55px; }
+  body .bg-faded {
+    background: #DC0404; }
+  body .navbar {
+    border-bottom: 1px solid #aa0303; }
+    body .navbar .navbar-brand img {
+      max-height: 30px; }
+  body .navbar-light .navbar-nav .nav-link {
+    color: white; }
+  body .jumbotron {
+    font-family: "Lato", sans-serif; }
+  body footer {
+    background: #c30404;
+    padding: 3vh 0 5vh;
+    margin-top: 3vh; }
+    body footer iframe {
+      margin-bottom: 10px; }
