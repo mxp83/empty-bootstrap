@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato");
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -8306,3 +8307,16 @@ body .navbar {
   border-bottom: 1px solid #aa0303; }
   body .navbar .navbar-brand img {
     max-height: 30px; }
+
+body .navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+body .jumbotron {
+  font-family: "Lato", sans-serif; }
+
+body footer {
+  background: #c30404;
+  padding: 3vh 0 5vh;
+  margin-top: 3vh; }
+  body footer iframe {
+    margin-bottom: 10px; }

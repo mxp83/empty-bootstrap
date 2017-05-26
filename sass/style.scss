@@ -16,4 +16,23 @@ body {
 			}
 		}
 	}
+	.navbar-light {
+		.navbar-nav {
+			.nav-link {
+				color:white;
+			}
+		}
+	}
+	.jumbotron {
+		font-family: $lato;
+	}
+	footer {
+		background: darken($canada-red,5%);
+		padding:3vh 0 5vh;
+		margin-top:3vh;
+
+		iframe {
+			margin-bottom:10px;
+		}
+	}
 }
