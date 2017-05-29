@@ -5,6 +5,21 @@
 // start your custom css below:
 body {
 	padding-top:55px;
+	p {
+		a {
+			color: $canada-red;
+		}
+	}
+
+	.btn-primary {
+		background-color:$canada-red;
+		border-color: darken($canada-red,5%);
+
+		&:hover {
+			background-color: darken($canada-red,8%);
+			border-color: darken($canada-red,5%);
+		}
+	}
 
 	.bg-faded {
 		background: $canada-red;
@@ -27,14 +42,57 @@ body {
 	}
 	.jumbotron {
 		font-family: $lato;
+		background:url('../img/maple_leaves.jpg') center no-repeat;
+		background-size:cover;
+		color:white;
+		text-shadow:-1px 4px 18px rgba(0,0,0,0.8);
+		position: relative;
+		height:500px;
+		
+		.hero-box {
+			margin-top:100px;
+		}
+		h5 {
+			color: #e7d4ab;
+			font-family: $bree;
+		}
+		h1 {
+			font-family: $open;
+		}
+
+		// @include media-breakpoint-up(md) {
+		// 	background:url('../img/maple_leaves2.jpg') center no-repeat;
+		// 	color:$canada-red;
+		// 	text-shadow: none;
+		// 	background-size:cover;
+		// }
 	}
 	footer {
 		background: darken($canada-red,5%);
-		padding:3vh 0 5vh;
+		padding:3vh 0 0;
 		margin-top:3vh;
+		color:white;
 
-		iframe {
-			margin-bottom:10px;
+		a {
+			color:white;
+		}
+		.rg-bar-container {
+			position:relative;
+			margin-top:10vh;
+
+			.rg-bar {
+				height:38px;
+				background: url('../img/foot-bg.jpg') center;
+			
+				&:before {
+					content: '';
+					background:url('../img/BCLC-img-footV3.png') no-repeat center;
+					position: absolute;
+					bottom:0;
+					height:90px;
+					width:90px;
+				}
+			}
 		}
 	}
 }
